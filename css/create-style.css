@@ -1,0 +1,219 @@
+body { 
+  margin: 0 auto;
+  padding: 0px;
+  width: 1024px;
+  background-color: #29363F;
+}
+@font-face {
+    font-family: 'superspace_regularregular';
+    src: url('../fonts/superspace_regular_ver_1.00-webfont.woff2') format('woff2'),
+         url('../fonts/superspace_regular_ver_1.00-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.wrapper-box{
+	width: 1024px;
+	height: 690px;
+	float: left;
+}
+.logo-box-space{
+	width: 1024px;
+	height: 100px;
+	float: left;
+	margin-top: 40px;
+}
+.logo-box{
+	width: 120px;
+	height: 80px;
+	float: left;
+	margin-left: 450px;
+}
+.name-box input{
+	width: 280px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+.surname-box input{
+	width: 280;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-top: 10px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.address-box input{
+	width: 87px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	float: left;
+	margin-left: 372px;
+	margin-top: 10px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.address-t-box input{
+	width: 86px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.address-a-box input{
+	width: 87px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.address-n-box input{
+	width: 183px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	float: left;
+	margin-top: 60px;
+	margin-left: -280px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.number-n-box input{
+	width: 87px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	float: left;
+	margin-top: 60px;
+	margin-left: -87px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.number-address-box input{
+	width: 280px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-top: 10px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.email-box input{
+	width: 280px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-top: 105px;
+	margin-left: -652px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.username-box input{
+	width: 280px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-top: 10px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.password-box input{
+	width: 280px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-top: 10px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.create-box input{
+	width: 280px;
+	height: 35px;
+	background-color: #6ED9A1;
+	border-radius: 5px;
+	border: 0px;
+	font-size: 16px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}
+.create-box input:hover{
+	background-color: #009447;
+}
+.create-box input:active{
+	background-color: #000000;
+}
+.return-box input{
+	width: 280px;
+	height: 35px;
+	background-color: #E1E1E1;
+	border-radius: 5px;
+	border: 0px;
+	font-size: 16px;
+	color: #000000;
+	cursor: pointer;
+	font-family: 'superspace_regularregular';
+}
+.return-box input:hover{
+	background-color: #BFBDBD;
+}
+.return-box input:active{
+	background-color: #F1EFEF;
+}
+.tagname-box select{
+	width: 280px;
+	height: 35px;
+	background-color: #29363F;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	font-size: 16px;
+	padding-left: 10px;
+	font-family: 'superspace_regularregular';
+	color: #FFFFFF;
+}

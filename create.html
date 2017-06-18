@@ -1,0 +1,115 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Presentation Online</title>
+    <link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/create-style.css"/>
+    <script>
+        function create()
+        {
+            var checkdata=true;
+            var msg="กรุณากรอก ";
+            if (document.getElementById("p_tagname").value=="")
+            {
+                checkdata=false;
+                msg+="Tag Name,";
+            }
+            if (document.getElementById("p_name").value=="")
+            {
+                checkdata=false;
+                msg+="ชื่อ,";
+            }
+            if (document.getElementById("p_surname").value=="")
+            {
+                checkdata=false;
+                msg+=" นามสกุล,";
+            }
+            if (document.getElementById("p_add").value=="")
+            {
+                checkdata=false;
+                msg+=" บ้านเลขที่,";
+            }
+            if (document.getElementById("p_addt").value=="")
+            {
+                checkdata=false;
+                msg+=" ตำบล,";
+            }
+            if (document.getElementById("p_adda").value=="")
+            {
+                checkdata=false;
+                msg+=" อำเภอ,";
+            }
+            if (document.getElementById("p_addn").value=="")
+            {
+                checkdata=false;
+                msg+=" จังหวัด,";
+            }
+            if (document.getElementById("p_postn").value=="")
+            {
+                checkdata=false;
+                msg+=" ไปรษณีย์,";
+            }
+            if (document.getElementById("p_phone").value=="")
+            {
+                checkdata=false;
+                msg+=" เบอร์โทร,";
+            }
+            if (document.getElementById("p_email").value=="")
+            {
+                checkdata=false;
+                msg+=" อีเมลล์,";
+            }
+            if (document.getElementById("p_username").value=="")
+            {
+                checkdata=false;
+                msg+=" ชื่อผู้ใช้,";
+            }
+            if (document.getElementById("p_password").value=="")
+            {
+                checkdata=false;
+                msg+=" รหัสผ่าน";
+            }
+            if (!checkdata)
+            {
+                alert(msg);
+            }
+            return checkdata;
+        }
+   </script>
+</head>
+<center>
+<body>
+	<div class="wrapper-box">
+		<div class="logo-box-space">
+			<div class="logo-box"><img src="img/logo.png"></div>
+		</div>
+		<form action="create_api.php" method="POST">
+            <div class="tagname-box">
+                <select name="p_tagname">
+                  <option value="DESIGNER-WEBSITE">DESIGNER WEBSITE</option>
+                  <option value="CODING-WEBSITE">CODING WEBSITE</option>
+                  <option value="GRAPHIC-ART">GRAPHIC ART</option>
+                  <option value="CREATOR-LOGO">CREATOR LOGO</option>
+                </select>
+            </div>
+			<div class="name-box"><input type="text" id="p_name" name="p_name" placeholder="ชื่อ"></div>
+			<div class="surname-box"><input type="text" id="p_surname" name="p_surname" placeholder="นามสกุล"></div>
+			<div class="address-box"><input type="text" id="p_add" name="p_add" placeholder="บ้านเลขที่"></div>
+			<div class="address-t-box"><input type="text" id="p_addt" name="p_addt" placeholder="ตำบล"></div>
+			<div class="address-a-box"><input type="text" id="p_adda" name="p_adda" placeholder="อำเภอ"></div>
+			<div class="address-n-box"><input type="text" id="p_addn" name="p_addn" placeholder="จังหวัด"></div>
+			<div class="number-n-box"><input type="text" id="p_postn" name="p_postn" placeholder="ไปรษณีย์"></div>
+			<div class="email-box"><input type="text" id="p_email" name="p_email" placeholder="อีเมลล์"></div>
+            <div class="number-address-box"><input type="text" id="p_phone" name="p_phone" placeholder="เบอร์โทร"></div>
+			<div class="username-box"><input type="text" id="p_username" name="p_username" placeholder="ชื่อผู้ใช้"></div>
+			<div class="password-box"><input type="password" id="p_password" name="p_password" placeholder="รหัสผ่าน"></div><br><br>
+			<div class="create-box"><input type="submit" value="CREATE" onclick="return create();"></div>
+		</form>
+		<form action="index.html" method="POST">
+			<div class="return-box"><input type="submit" value="RETURN TO LOG-IN"></div>
+		</form>
+	</div>
+</body>
+</center>
+</html>
+
